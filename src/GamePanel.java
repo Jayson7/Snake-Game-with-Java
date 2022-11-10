@@ -50,7 +50,7 @@ public class GamePanel extends JPanel implements ActionListener{
 
 		this.setPreferredSize(new Dimension(SCREEN_WIDTH,SCREEN_HEIGHT));
 
-		this.setBackground(Color.black);
+		this.setBackground(Color.DARK_GRAY);
 
 		this.setFocusable(true);
 
@@ -108,7 +108,7 @@ public class GamePanel extends JPanel implements ActionListener{
 
 				if(i == 0) {
 
-					g.setColor(Color.green);
+					g.setColor(Color.yellow);
 
 					g.fillRect(x[i], y[i], UNIT_SIZE, UNIT_SIZE);
 
@@ -116,7 +116,7 @@ public class GamePanel extends JPanel implements ActionListener{
 
 				else {
 
-					g.setColor(new Color(45,180,0));
+					g.setColor(new Color(0,0,0));
 
 					//g.setColor(new Color(random.nextInt(255),random.nextInt(255),random.nextInt(255)));
 
